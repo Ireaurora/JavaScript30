@@ -1,5 +1,50 @@
-h1{
+
+  html, body {
+    height: 100%;
+    background-color: #f5feff;
+  }
+  .content{
+      margin-left:15px;
+      margin-right:15px;
+  }
+  
+  .wave-container > svg {
+    display: block;
+    background: #f5feff;
+  }
+
+  .wave-container {
+    position: relative;
+    background: #9fff82;
+    color: #FFF;
     text-align: center;
-    margin-top:15px !important;
-    margin-bottom:30px !important;
+    overflow: hidden;
+  }
+
+h1{
+    color:#23abfa;
+    margin-top:20px;
+    text-align: center;
+    text-shadow: 1.5px 1.5px #000000;
+}
+h1 a{ 
+    color:#23abfa;
+    text-decoration: underline;
+}
+
+#github{
+    padding-right: 30px;
+    font-size: 25px !important;
+    color: #23abfa !important;
+  }
+  
+#github:hover{ color: #84fff3;}
+
+.footer-text{
+    color:#23abfa;
+    text-align: center;
+    padding-bottom:15px;
+}
+.footer-text a{ 
+    text-decoration: underline;
 }
