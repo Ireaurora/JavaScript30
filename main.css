@@ -45,17 +45,13 @@ h1 a{
     text-align: center;
     padding-bottom:15px;
 }
-.footer-text a{ 
-    text-decoration: underline;
-}
+.footer-text a{ text-decoration: underline; }
 
 .clock{color :#6b5142 !important}
 
 .drum{color : rgb(194, 38, 38) !important}
 
-.card-title{
-  text-decoration: underline;
-}
+.card-title{ text-decoration: underline;}
 
 .variables{color:#34bfc1}
 
