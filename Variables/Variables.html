@@ -10,7 +10,7 @@
   <h2>Update CSS Variables with <span class='h1'>JS</span></h2>
 
   <div class="controls">
-    <label for="spacing">Spacing:</label>
+    <label for="spacing">Size:</label>
     <!--Data attributes are things that we just make up-->
     <input id="spacing" type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
 
@@ -21,8 +21,9 @@
     <input id="base" type="color" name="base" value="#ffc600">
   </div>
 
-  <img src="https://source.unsplash.com/7bwQXzbF6KE/800x500">
-
-
+  <input type="file" id="file_input" class="custom-file-input" name="background-image"></input>
+  
+  <div id="logo"></div> 
+  <script> document.getElementById('file_input').addEventListener('change', readURL, true);</script>   
 </body>
 </html>

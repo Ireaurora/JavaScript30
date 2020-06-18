@@ -1,7 +1,6 @@
 window.onload = function () {
     setDate();
 }
-
 function setDate(){
     const secondHand = document.querySelector('.second-hand'); 
     const minuteHand = document.querySelector('.min-hand');
