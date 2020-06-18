@@ -52,3 +52,7 @@ h1 a{
 .clock{color :#6b5142 !important}
 
 .drum{color : rgb(194, 38, 38) !important}
+
+.card-title{
+  text-decoration: underline;
+}
