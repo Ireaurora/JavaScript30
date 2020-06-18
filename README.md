@@ -7,3 +7,7 @@ Projects completed:
 ✅ JavaScript Drum Kit 
 
 ✅ CSS + JS Clock
+
+✅ Playing with CSS Variables and JS
+
+🎉 10% Completed 🎉
