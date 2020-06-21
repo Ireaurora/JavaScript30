@@ -11,3 +11,5 @@ Projects completed:
 ✅ Playing with CSS Variables and JS
 
 🎉 10% Completed 🎉
+
+✅ Array Cardio 1
