@@ -13,3 +13,9 @@ Projects completed:
 🎉 10% Completed 🎉
 
 ✅ Array Cardio 1
+
+✅ Flex Panel Gallery
+
+✅ Ajax Type Ahead
+
+🎉 20% Completed 🎉
