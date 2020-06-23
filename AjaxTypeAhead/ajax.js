@@ -40,6 +40,7 @@ function numberWithCommas(x) {
     suggestions.innerHTML = html;
   }
 
+
 window.onload = function () {
     const searchInput = document.querySelector('.search');
     
