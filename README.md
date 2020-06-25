@@ -19,3 +19,7 @@ Projects completed:
 ✅ Ajax Type Ahead
 
 🎉 20% Completed 🎉
+
+✅ Array Cardio 2
+
+✅ Fun with HTML5 Canvas
