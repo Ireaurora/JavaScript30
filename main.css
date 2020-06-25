@@ -1,3 +1,13 @@
+:root{
+  /*these are variables*/
+  --clock : #6b5142;
+  --drum:rgb(194, 38, 38);
+  --variables :#34bfc1;
+  --array1 :black;
+  --flex1 : #98733d;
+  --ajaxtypeahead : #ffc600;
+  --canvas :#aa05ff;
+}
 
   html, body {
     height: 100%;
@@ -47,19 +57,7 @@ h1 a{
 }
 .footer-text a{ text-decoration: underline; }
 
-.clock{color :#6b5142 !important}
-
-.drum{color : rgb(194, 38, 38) !important}
-
 .card-title{ text-decoration: underline;}
-
-.variables{color:#34bfc1;}
-
-.array1{ color: black;}
-
-.flex1{ color: #98733d;}
-
-.ajaxtypeahead{ color: #ffc600;}
 
 .card-img-top {
   width: 100%;
@@ -71,5 +69,25 @@ h1 a{
   -ms-transform: scale(1.05); /* IE 9 */
   -webkit-transform: scale(1.05); /* Safari 3-8 */
   transform: scale(1.05); 
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+.clock{color :var(--clock) !important;} 
+.clockc:hover{box-shadow: 0 4px 8px 0 var(--clock), 0 6px 20px 0 var(--clock);}
+
+.drum{color : var(--drum) !important}
+.drumc:hover{box-shadow: 0 4px 8px 0 var(--drum), 0 6px 20px 0 var(--drum);}
+
+.variables{color:var(--variables) }
+.variablesc:hover{box-shadow: 0 4px 8px 0 var(--variables), 0 6px 20px 0 var(--variables);}
+
+.array1{ color: var(--array1) }
+.array1c:hover{box-shadow: 0 4px 8px 0 var(--array1), 0 6px 20px 0 var(--array1);}
+
+.flex1{ color: var(--flex1) }
+.flex1c:hover{box-shadow: 0 4px 8px 0 var(--flex1), 0 6px 20px 0 var(--flex1);}
+
+.ajaxtypeahead{ color: var(--ajaxtypeahead) }
+.ajaxtypeaheadc:hover{ box-shadow: 0 4px 8px 0 var(--ajaxtypeahead), 0 6px 20px 0 var(--ajaxtypeahead);}
+
+.canvas{color:var(--canvas) }
+.canvasc:hover{ box-shadow: 0 4px 8px 0 var(--canvas) , 0 6px 20px 0 var(--canvas);}
