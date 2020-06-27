@@ -23,3 +23,7 @@ Projects completed:
 ✅ Array Cardio 2
 
 ✅ Fun with HTML5 Canvas
+
+✅ 14 Must Know Chrome Dev Tools Tricks
+
+🎉 30% Completed 🎉
