@@ -3,8 +3,173 @@
 <head>
   <meta charset="UTF-8">
   <title>Console Tricks!</title>
+  <link rel="stylesheet" href="devtools.css">
+  <script src="devtools.js" type="text/javascript"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+  crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+  crossorigin="anonymous"></script>
 </head>
 <body>
-  <p onClick="makeGreen()">×BREAK×DOWN×</p>
+  <h1>Dev Tools</h1>
+  <p><em>Psst: have a look at the JavaScript Console</em> 💁</p>
+  <div class="data">
+  <h2>Dogs</h2>
+  <code>
+    const dogs = [{ name: 'Snickers', age: 2 }, { name: 'hugo', age: 8 }];
+</code>
+</div>
+<div class="exercise">
+  <h2>Regular console.log</h2>
+  <button class="btn btn-primary" type="button" onclick="one()" data-toggle="collapse" data-target="#one"
+      aria-expanded="false" aria-controls="collapseExample">
+      Solution
+  </button>
+  <div class="collapse" id="one">
+      <div class="card card-body">Open the console</div>
+  </div>
+</div>
+
+<div class="exercise">
+  <h2>Interpolated console.log</h2>
+  <button class="btn btn-primary" type="button" onclick="two()" data-toggle="collapse" data-target="#two"
+      aria-expanded="false" aria-controls="collapseExample">
+      Solution
+  </button>
+  <div class="collapse" id="two">
+      <div class="card card-body">Open the console</div>
+  </div>
+</div>
+
+<div class="exercise">
+  <h2>Blue text in the console</h2>
+  <button class="btn btn-primary" type="button" onclick="three()" data-toggle="collapse" data-target="#three"
+      aria-expanded="false" aria-controls="collapseExample">
+      Solution
+  </button>
+  <div class="collapse" id="three">
+      <div class="card card-body">Open the console</div>
+  </div>
+</div>
+
+<div class="exercise">
+  <h2>Display a warning in the console</h2>
+  <button class="btn btn-primary" type="button" onclick="four()" data-toggle="collapse" data-target="#four"
+      aria-expanded="false" aria-controls="collapseExample">
+      Solution
+  </button>
+  <div class="collapse" id="four">
+      <div class="card card-body">Open the console</div>
+  </div>
+</div>
+
+<div class="exercise">
+  <h2>Display an error in the console</h2>
+  <button class="btn btn-primary" type="button" onclick="five()" data-toggle="collapse" data-target="#five"
+      aria-expanded="false" aria-controls="collapseExample">
+      Solution
+  </button>
+  <div class="collapse" id="five">
+      <div class="card card-body">Open the console</div>
+  </div>
+</div>
+
+<div class="exercise">
+  <h2>Display an information in the console</h2>
+  <button class="btn btn-primary" type="button" onclick="six()" data-toggle="collapse" data-target="#six"
+      aria-expanded="false" aria-controls="collapseExample">
+      Solution
+  </button>
+  <div class="collapse" id="six">
+      <div class="card card-body">Open the console</div>
+  </div>
+</div>
+
+<div class="exercise">
+  <h2>Test if something is true in the console</h2>
+  <button class="btn btn-primary" type="button" onclick="seven()" data-toggle="collapse" data-target="#seven"
+      aria-expanded="false" aria-controls="collapseExample">
+      Solution
+  </button>
+  <div class="collapse" id="seven">
+      <div class="card card-body">Open the console</div>
+  </div>
+</div>
+
+<div class="exercise">
+  <h2>Display a DOM element</h2>
+  <button class="btn btn-primary" type="button" onclick="eight()" data-toggle="collapse" data-target="#eight"
+      aria-expanded="false" aria-controls="collapseExample">
+      Solution
+  </button>
+  <div class="collapse" id="eight">
+      <div class="card card-body">Open the console</div>
+  </div>
+</div>
+
+<div class="exercise">
+  <h2>Display all information about a DOM element</h2>
+  <button class="btn btn-primary" type="button" onclick="nine()" data-toggle="collapse" data-target="#nine"
+      aria-expanded="false" aria-controls="collapseExample">
+      Solution
+  </button>
+  <div class="collapse" id="nine">
+      <div class="card card-body">Open the console</div>
+  </div>
+</div>
+
+<div class="exercise">
+  <h2>Group together</h2>
+  <button class="btn btn-primary" type="button" onclick="ten()" data-toggle="collapse" data-target="#ten"
+      aria-expanded="false" aria-controls="collapseExample">
+      Solution
+  </button>
+  <div class="collapse" id="ten">
+      <div class="card card-body">Open the console</div>
+  </div>
+</div>
+
+<div class="exercise">
+  <h2>Count</h2>
+  <button class="btn btn-primary" type="button" onclick="eleven()" data-toggle="collapse" data-target="#eleven"
+      aria-expanded="false" aria-controls="collapseExample">
+      Solution
+  </button>
+  <div class="collapse" id="eleven">
+      <div class="card card-body">Open the console</div>
+  </div>
+</div>
+
+<div class="exercise">
+  <h2>Group together</h2>
+  <button class="btn btn-primary" type="button" onclick="twelve()" data-toggle="collapse" data-target="#twelve"
+      aria-expanded="false" aria-controls="collapseExample">
+      Solution
+  </button>
+  <div class="collapse" id="twelve">
+      <div class="card card-body">Open the console</div>
+  </div>
+</div>
+
+
+<div class="exercise">
+  <h2>Table</h2>
+  <button class="btn btn-primary" type="button" onclick="final()" data-toggle="collapse" data-target="#final"
+      aria-expanded="false" aria-controls="collapseExample">
+      Solution
+  </button>
+  <div class="collapse" id="final">
+      <div class="card card-body">Open the console</div>
+  </div>
+</div>
+
 </body>
 </html>
