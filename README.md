@@ -27,3 +27,11 @@ Projects completed:
 ✅ 14 Must Know Chrome Dev Tools Tricks
 
 🎉 30% Completed 🎉
+
+✅ Hold Shift and Check Checkboxes
+
+✅ Custom Video Player
+
+✅ Key Sequence Detection
+
+🎉 40% Completed 🎉
