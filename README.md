@@ -36,7 +36,7 @@ Projects completed:
 
 🎉 40% Completed 🎉
 
-❌ Slide in on Scroll
+✅ Slide in on Scroll
 
 ❌ JavaScript References VS Copying
 
