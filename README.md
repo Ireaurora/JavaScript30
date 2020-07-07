@@ -35,3 +35,51 @@ Projects completed:
 ✅ Key Sequence Detection
 
 🎉 40% Completed 🎉
+
+❌ Slide in on Scroll
+
+❌ JavaScript References VS Copying
+
+❌ LocalStorage
+
+🎉 50% Completed 🎉
+
+❌ Mouse Move Shadow
+
+❌ Sort Without Articles
+
+❌ Adding Up Times with Reduce
+
+🎉 60% Completed 🎉
+
+❌ Webcam Fun
+
+❌ Speech Detection
+
+❌ Geolocation
+
+🎉 70% Completed 🎉
+
+❌ Follow Along Link Highlighter
+
+❌ Speech Synthesis
+
+❌ Sticky Nav
+
+🎉 80% Completed 🎉
+
+❌ Event Capture, Propagation, Bubbling and Once
+
+❌ Stripe Follow Along Nav
+
+❌ Click and Drag
+
+🎉 90% Completed 🎉
+
+❌ Video Speed Controller
+
+❌ Countdown Timer
+
+❌ Whack A Mole
+
+🎉 100% Completed 🎉
