@@ -38,7 +38,7 @@ Projects completed:
 
 ✅ Slide in on Scroll
 
-❌ JavaScript References VS Copying
+✅ JavaScript References VS Copying
 
 ❌ LocalStorage
 
