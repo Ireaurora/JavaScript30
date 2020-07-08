@@ -3,44 +3,58 @@ const players = ['Wes', 'Sarah', 'Ryan', 'Poppy'];
 
 const team = players;
 
-console.log(players, team);
-
 team[3] = 'Lux';
 
 //Both players and team are updated as "team" is only a reference to players
+//console.log(players, team);
 
-console.log(players, team);
+function one(){
+  // One way to take a copy of an array is using slice without parameters
+  console.clear();
+  console.log("const team2 = players.slice();");
+}
 
-// One way to take a copy of an array is using slice without parameters
-const team2 = players.slice();
+function two(){
+  //Another way is to create a new array and concat the old one in
+  console.clear();
+  console.log("const team3 = [].concat(players);");
+}
 
-//Another way is to create a new array and concat the old one in
+function three(){
+  //Using array.from
+  console.clear();
+  console.log("const team5 = Array.from(players);");
+}
 
-const team3 = [].concat(players);
-
-// or use the new ES6 Spread
-
-const team4 = [...players];
-
-const team5 = Array.from(players);
+function four(){
+  //ES6 Spread
+  console.clear();
+  console.log("const team4 = [...players];");
+}
 
 // The same thing goes for objects
 
 const person = {
-  name: 'Wes Bos',
-  age: 80
+  name: 'Irene',
+  age: 1000
 };
 
-//Start with empty object, the original object, the property you want to update
-const cap2 = Object.assign({}, person, {number: 99});
+function five(){
+  // Things to note - this is only 1 level deep - both for Arrays and Objects. lodash has a cloneDeep method, but you should think twice before using it.
+  //Start with empty object, the original object, the property you want to update
+  console.clear();
+  console.log("const cap2 = Object.assign({}, person, {number: 99});");
+}
 
-// We will hopefully soon see the object ...spread
-const cap3 = {...person};
-// Things to note - this is only 1 level deep - both for Arrays and Objects. lodash has a cloneDeep method, but you should think twice before using it.
-
-const dev = Object.assign({}, wes);
+function six(){
+  // We will hopefully soon see the object ...spread -- NOT IN JS YET
+  console.clear();
+  console.log("const cap3 = {...person};");
+}
 
 //clone deep will clone at all levels
-
-//which will return you a string and then immediately after an object - alternative to clone deeps
-const dev2 = JSON.parse(JSON.stringify());
+function seven(){
+//This will return you a string and then immediately after an object - alternative to clone deeps  
+  console.clear();
+  console.log("const dev2 = JSON.parse(JSON.stringify());");
+}
