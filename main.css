@@ -8,6 +8,7 @@
   --ajaxtypeahead : #ffc600;
   --canvas :#aa05ff;
   --pony :#f666be;
+  --welcome: rgba(5, 238, 5, 0.918);
 }
 
   html, body {
@@ -92,5 +93,9 @@ h1 a{
 
 .canvas{color:var(--canvas) }
 .canvasc:hover{ box-shadow: 0 4px 8px 0 var(--canvas) , 0 6px 20px 0 var(--canvas);}
+
 .pony{color:var(--pony) }
 .ponyc:hover{ box-shadow: 0 4px 8px 0 var(--pony) , 0 6px 20px 0 var(--pony);}
+
+.welcome{color:var(--welcome) }
+.welcomec:hover{ box-shadow: 0 4px 8px 0 var(--welcome) , 0 6px 20px 0 var(--welcome);}
