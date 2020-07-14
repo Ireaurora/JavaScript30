@@ -44,7 +44,7 @@ Projects completed:
 
 🎉 50% Completed 🎉
 
-❌ Mouse Move Shadow
+✅ Mouse Move Shadow
 
 ❌ Sort Without Articles
 
