@@ -46,7 +46,7 @@ Projects completed:
 
 ✅ Mouse Move Shadow
 
-❌ Sort Without Articles
+✅ Sort Without Articles
 
 ❌ Adding Up Times with Reduce
 
