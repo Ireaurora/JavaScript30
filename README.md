@@ -40,7 +40,7 @@ Projects completed:
 
 ✅ JavaScript References VS Copying
 
-❌ LocalStorage
+✅ LocalStorage
 
 🎉 50% Completed 🎉
 
