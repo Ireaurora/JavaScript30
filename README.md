@@ -48,7 +48,7 @@ Projects completed:
 
 ✅ Sort Without Articles
 
-❌ Adding Up Times with Reduce
+✅ Adding Up Times with Reduce
 
 🎉 60% Completed 🎉
 
