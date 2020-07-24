@@ -1,9 +1,6 @@
 window.onload = function() {
   const addItems = document.querySelector('.add-items');
   const itemsList = document.querySelector('.plates');
-  //Submit when someone clicks a button or ticks it 
-  addItems.addEventListener('submit', addItem);
-  itemsList.addEventListener('click', toggleDone);
   //the list of items or checklist
   const items = JSON.parse(localStorage.getItem('items')) || [];
 
@@ -48,7 +45,7 @@ function toggleDone(e) {
   localStorage.setItem('items', JSON.stringify(items));
   populateList(items, itemsList);
   }
-
+//Submit when someone clicks a button or ticks it 
   addItems.addEventListener('submit', addItem);
   itemsList.addEventListener('click', toggleDone);
   populateList(items, itemsList);
